@@ -8,8 +8,8 @@ public class HelloApp {
 
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
-        Operation helloService = context.getBean(Operation.class);
+        Operation operation = context.getBean(Operation.class);
 //        context.start();
-        System.out.println(helloService.k());
+        System.out.println(operation.k());
     }
 }

@@ -1,4 +1,4 @@
-package com.sr.aspacts;
+package com.sr.aop_points;
 
 /**
  * Created by sajedur on 4/7/2016.
